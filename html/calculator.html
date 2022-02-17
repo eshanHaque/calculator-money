@@ -17,47 +17,51 @@
         <div class="row">
             <div class="col-12 col-md-8 mt-5 mb-5 pt-3"><img class="img-responsive img-fluid" src="/img/taka.jpg" alt=""></div>
             <div class="col-12 col-md-4 pt-4 px-4 bg-light bg-gradient">
-                <!-- income area start -->
+                <!-- income area -->
                 <h5 class="text-center mb-4">Income</h5>
                 <div class="row">
                     <div class="col"><p>Income:</p>
                     </div>
-                    <div class="col"><input id="" class="background-cstm-color text-white" type="text"></div>
+                    <div class="col"><input id="income-input" class="background-cstm-color text-white" type="text"></div>
                 </div>  
-                <!-- income area end -->
+                
 
-                <!-- expense area start -->
+                <!-- expense area  -->
                 <h5 class="text-center mt-3 mb-3">Expenses</h5>
 
                 <!-- food -->
                 <div class="row">
                     <div class="col  mt-3"><p>Food:</p>
                     </div>
-                    <div class="col mt-3"><input id="" class="background-cstm-color text-white" type="text"></div>
+                    <div class="col mt-3"><input id="food-input" class="background-cstm-color text-white" type="text"></div>
                 </div>  
                 <!-- rent -->
                 <div class="row">
                     <div class="col  mt-3"><p>Rent:</p>
                     </div>
-                    <div class="col mt-3"><input id="" class="background-cstm-color text-white" type="text"></div>
+                    <div class="col mt-3"><input id="rent-input" class="background-cstm-color text-white" type="text"></div>
                 </div>  
                 <!-- clothes -->
                 <div class="row">
                     <div class="col  mt-3"><p>Clothes:</p>
                     </div>
-                    <div class="col mt-3"><input id="" class="background-cstm-color text-white" type="text"></div>
+                    <div class="col mt-3"><input id="clothes-input" class="background-cstm-color text-white" type="text"></div>
                 </div>  
                 <div class="col col-md-12 text-center mt-3
-                mb-4"><button class="btn btn-primary" type="submit">Calculate</button></div>
-                <h5 class="text-center mb-2">Total Expenses: <span>00</span></h5>
-                <h5 class="text-center">Balance: <span>00</span></h5>
+                mb-4"><button id="calculate-button" class="btn btn-primary" type="submit">Calculate</button></div>
+
+                <!-- total expenses -->
+                <h5 class="text-center mb-2">Total Expenses: <span id="total-expenses">00</span></h5>
+
+                <!-- previous balance -->
+                <h5 class="text-center">Balance: <span id="prev-balance">00</span></h5>
 
                 <!-- savings -->
                 <div class="d-flex justify-content-around">
                     <div><p>Save:</p></div>
                     <div><input id="" class="background-cstm-color text-white" type="text"></div>
                     <div><p>%</p></div>
-                    <div><button class="btn btn-primary" type="submit">Calculate</button></div>                   
+                    <div><button id="" class="btn btn-primary" type="submit">Calculate</button></div>                   
                 </div>
                 <h5 class="text-center mt-3 mb-2">Saving Amount: <span>00</span></h5>
 
