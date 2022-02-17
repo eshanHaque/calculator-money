@@ -53,7 +53,7 @@ document.getElementById('save-button').addEventListener('click', function(){
    saveMain.innerText = savetotal;
 
    //    update main balance
-   const balanceMain = document.getElementById('main-balance');
+   const balanceMain = document.getElementById('mains-balance');
    const balanceAmountText = balanceMain.innerText;
    const balanceAmount = parseFloat(balanceAmountText);
    const balanceTotal = balanceAmount + incomeAmount - savetotal;
